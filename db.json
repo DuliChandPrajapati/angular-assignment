@@ -1,0 +1,58 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "email": "jsmith@test.com",
+      "phone": "123456789"
+    },
+    {
+      "id": 2,
+      "name": "Robert",
+      "email": "robert@test.com",
+      "phone": "987654321"
+    },
+    {
+      "id": 3,
+      "name": "John",
+      "email": "john@test.com",
+      "phone": "123412345"
+    },
+    {
+      "id": 4,
+      "name": "Smith",
+      "email": "smith@test.com",
+      "phone": "123456789"
+    },
+    {
+      "id": 5,
+      "name": "Bruce",
+      "email": "bruce@test.com",
+      "phone": "987654321"
+    },
+    {
+      "id": 6,
+      "name": "Berry",
+      "email": "b@test.com",
+      "phone": "123412345"
+    },
+    {
+      "id": 7,
+      "name": "Bruce 2",
+      "email": "bruce2@test.com",
+      "phone": "987654321"
+    },
+    {
+      "id": 8,
+      "name": "Berry 2",
+      "email": "b2@test.com",
+      "phone": "123412345"
+    },
+    {
+      "name": "Duli",
+      "email": "inbox.duli@gmail.com",
+      "phone": "8989808676",
+      "id": 9
+    }
+  ]
+}

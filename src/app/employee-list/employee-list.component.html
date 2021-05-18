@@ -1,0 +1,28 @@
+<div class="row">
+<div class="col-md-2"></div>
+<div class="col-md-8 col-md-offset-3">
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col" sortable="Id">Id</th>
+        <th scope="col" sortable="Name">Name</th>
+        <th scope="col" sortable="Email">Email</th>
+        <th scope="col" sortable="Phone">Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        *ngFor="let employee of employees; index as i">
+        <td>{{i+1}}</td>
+        <td>{{ employee.id | number }}</td>
+        <td>{{ employee.name }}</td>
+        <td>{{ employee.email}}</td>
+        <td>{{employee.phone}}</td>
+        <td><a  [routerLink]="['/employee-details', employee.id]">Detail</a></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="col-md-2"></div>
+  </div>
